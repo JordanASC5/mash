@@ -1,3 +1,50 @@
+function mash () {
+	console.log("You will live " + getHome() + ", and you will have " + getChildrenCount() + ", and you will drive a " + getCar());
+}
+var houseType = ["in a Old Shack", "in a Mansion", "in the middle of the ocean :^)", "in a cave", "on a farm", "in a hosptial",
+ "in a basement", "inside a computer (if possible lmao)", "under a bridge", "at a college illegally", "a old musty attick", "in the underworld", "in a dungeon o-O"];
+var carType = ["a old 1986 BMW i4.", "1995 nissian 300ZX TT.", "Hennessey Vemon o-0. ", "old mack f700 xd.", "dodge dart.", " taxi.", "clown car.", "running in the 90's car lmao.", "basic plain car.", "Koenigsegg Agera RS O-O.", "an old rust bucket LMAO.", "shopping cart."];
+var kidAmount = ["1 child", "2 Twins", "3 children", "4 children", "5 children", "6 children", "7 children", "8 children", "9 children", "10 children", "11 children", "12 children", "15 children", "20 children"];
+function getHome() {
+	var getsingleHouse = houseType[Math.floor(Math.random()*13)];
+	return getsingleHouse;
+}
+function getChildrenCount() {
+	var getChildAmount = kidAmount[Math.floor(Math.random()*14)];
+	return getChildAmount;
+}
+function getCar() {
+	var getsingleCar = carType[Math.floor(Math.random()*12)];
+	return getsingleCar;
+}
+
+mash();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 	0) Test everything as you go, as often as possible!
 
